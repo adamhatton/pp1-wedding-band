@@ -13,5 +13,10 @@ body {
     border: none;
     font-family: Rubik, sans-serif;
     font-weight: 300;
-    font-size: 1.6rem;
+}
+
+/* logo and headings */
+
+#logo {
+    margin: 0;
 }
