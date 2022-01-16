@@ -108,6 +108,7 @@ h3 {
     font-weight: 500;
     background-color: #fff;
     border-radius: 1rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 #testimonials p {
@@ -151,16 +152,29 @@ h3 {
 /* for mobiles with screen width 390px and screen height 800px and above */
 
 @media screen and (min-width: 390px) and (min-height: 800px) and (orientation: portrait) {
+    
+    /* Reduce hero image size to hint at content below it */
     #hero-image {
         height: calc(100vh - 10rem);
     }
 }
+
+/* for tablets with screen width 768px and above */
+
+
+/* TO DO: ADD TABLET MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+
+    
+}
+
 
 /* LANDSCAPE */
 
 /* for mobiles with screen width 320px and above */
 
 @media screen and (orientation: landscape) {
+    
     #hero-image {
         padding-top: 15vh;
     }
