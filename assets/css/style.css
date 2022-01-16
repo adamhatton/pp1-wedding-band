@@ -16,9 +16,10 @@ html {
 body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
+    padding-top: 4.5rem;
 }
 
-/* logo and headings */
+/* logo, navbar and headings */
 
 h1,
 h2 {
@@ -34,6 +35,10 @@ h2 {
     color: #ebebeb;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.nav-item {
+    font-size: 1.4rem;
 }
 
 /* hero image, cover text and buttons */
