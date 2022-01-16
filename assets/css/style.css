@@ -26,7 +26,7 @@ h2,
 h3 {
     font-family: Antonio, sans-serif;
     text-transform: uppercase;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: 600;
     margin: 0;
     color: #363033;
@@ -46,7 +46,7 @@ h3 {
 
 #hero-image {
     background: #B2A895 url(../images/female-singer.jpg) center top / cover no-repeat;
-    height: calc(100vh - 4.5rem);
+    height: calc(100vh - 4.8rem);
     box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.3);
     padding-top: 30vh;
 }
@@ -66,6 +66,7 @@ h3 {
 #cover-text > h2 {
     display: table-cell;
     vertical-align: middle;
+    font-size: 2.4rem;
 }
 
 #button-container {
@@ -141,4 +142,26 @@ h3 {
     margin: 1rem 2rem;
     font-size: 2.4rem;
     color: #ebebeb;
+}
+
+/*** Media queries ***/
+
+/* PORTRAIT */
+
+/* for mobiles with screen width 390px and screen height 800px and above */
+
+@media screen and (min-width: 390px) and (min-height: 800px) and (orientation: portrait) {
+    #hero-image {
+        height: calc(100vh - 10rem);
+    }
+}
+
+/* LANDSCAPE */
+
+/* for mobiles with screen width 320px and above */
+
+@media screen and (orientation: landscape) {
+    #hero-image {
+        padding-top: 15vh;
+    }
 }
