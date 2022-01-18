@@ -97,6 +97,10 @@ h3 {
 
 /* Testimonial section */
 
+.row {
+    clear: both;
+}
+
 #testimonials {
     padding: 1rem;
     background-color: #363033;
@@ -175,9 +179,11 @@ h3 {
     }
 }
 
-/* for tablets with screen width 768px and above */
+/* for tablets with screen width 768px and screen height 600px -> Increase sizes by 50%. 
+Screen height added to prevent larger phones in landscape from hitting
+media query and size increase causing layout issues  */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-height: 600px) {
     body {
         padding-top: 6.6rem;
     }
@@ -186,14 +192,18 @@ h3 {
         font-size: 4.2rem;
     }
 
+    .nav-item {
+        font-size: 2.1rem;
+    }
+
     #hero-image {
-        height: calc(100vh - 30rem);
+        height: 75vh;
+        padding-top: 30vh;
     }
 
     #cover-text {
         width: 33rem;
         height: 15rem;
-        padding: 0.9rem 3rem;
     }
     
     #cover-text > h2 {
@@ -208,5 +218,70 @@ h3 {
         width: 15rem;
         height: 7.5rem;
         font-size: 3rem;
+    }
+
+    #testimonials h3 {
+        font-size: 2.4rem;
+    }
+    
+    #testimonials p {
+        font-size: 1.8rem;
+
+    }
+
+    .social-links i {
+        font-size: 3.6rem;
+    }
+}
+
+/* for screens with width 1200px and above -> Increase sizes by 100% */
+
+@media screen and (min-width: 1200px) {
+    body {
+        padding-top: 8.3rem;
+    }
+
+    h1 {
+        font-size: 5.6rem;
+    }
+
+    .nav-item {
+        font-size: 2.8rem;
+    }
+
+    #hero-image {
+        padding-top: 35vh;
+    }
+
+    #cover-text {
+        width: 44rem;
+        height: 20rem;
+    }
+    
+    #cover-text > h2 {
+        font-size: 4.8rem;
+    }
+
+    #button-container {
+        width: 44rem;
+    }
+    
+    .homepage-button {
+        width: 20rem;
+        height: 10rem;
+        font-size: 3rem;
+    }
+
+    #testimonials h3 {
+        font-size: 2.8rem;
+    }
+    
+    #testimonials p {
+        font-size: 2.1rem;
+
+    }
+
+    .social-links i {
+        font-size: 4.8rem;
     }
 }
