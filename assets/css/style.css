@@ -70,20 +70,29 @@ h3 {
 }
 
 #button-container {
-    text-align: center;
+    width: 22rem;
+    margin: 0 auto;
 }
 
 .homepage-button {
     width: 10rem;
     height: 5rem;
     display: inline-block;
-    margin: 1rem 0.9rem;
     font-size: 2rem;
     font-weight: 600;
+    color: #363033;
     border: 2px solid #363033;
     border-radius: 1rem;
     font-family: Antonio, sans-serif;
     background-color: rgba(235, 235, 235, 0.9);
+}
+
+#prices-btn {
+    float: left;
+}
+
+#hire-btn {
+    float: right;
 }
 
 /* Testimonial section */
@@ -147,11 +156,18 @@ h3 {
 
 /*** Media queries ***/
 
-/* PORTRAIT */
+/* for mobiles with screen width 320px and above */
 
-/* for mobiles with screen width 390px and screen height 800px and above */
+@media screen and (min-width: 320px) and (orientation: landscape) {
+    
+    #hero-image {
+        padding-top: 15vh;
+    }
+}
 
-@media screen and (min-width: 390px) and (min-height: 800px) and (orientation: portrait) {
+/* for mobiles with screen width 390px and above */
+
+@media screen and (min-width: 390px) and (orientation: portrait) {
     
     /* Reduce hero image size to hint at content below it */
     #hero-image {
@@ -161,21 +177,36 @@ h3 {
 
 /* for tablets with screen width 768px and above */
 
-
-/* TO DO: ADD TABLET MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+    body {
+        padding-top: 6.6rem;
+    }
 
-    
-}
+    h1 {
+        font-size: 4.2rem;
+    }
 
-
-/* LANDSCAPE */
-
-/* for mobiles with screen width 320px and above */
-
-@media screen and (orientation: landscape) {
-    
     #hero-image {
-        padding-top: 15vh;
+        height: calc(100vh - 30rem);
+    }
+
+    #cover-text {
+        width: 33rem;
+        height: 15rem;
+        padding: 0.9rem 3rem;
+    }
+    
+    #cover-text > h2 {
+        font-size: 3.6rem;
+    }
+
+    #button-container {
+        width: 33rem;
+    }
+    
+    .homepage-button {
+        width: 15rem;
+        height: 7.5rem;
+        font-size: 3rem;
     }
 }
