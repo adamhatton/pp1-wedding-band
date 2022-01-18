@@ -166,6 +166,7 @@ h3 {
     
     #hero-image {
         padding-top: 15vh;
+        min-height: 22.5rem;
     }
 }
 
@@ -179,11 +180,9 @@ h3 {
     }
 }
 
-/* for tablets with screen width 768px and screen height 600px -> Increase sizes by 50%. 
-Screen height added to prevent larger phones in landscape from hitting
-media query and size increase causing layout issues  */
+/* for tablets with screen width 500px -> Increase sizes by 50%. */ 
 
-@media screen and (min-width: 768px) and (min-height: 600px) {
+@media screen and (min-width: 500px) {
     body {
         padding-top: 6.6rem;
     }
@@ -198,7 +197,8 @@ media query and size increase causing layout issues  */
 
     #hero-image {
         height: 75vh;
-        padding-top: 30vh;
+        padding-top: 23vh;
+        min-height: 43rem;
     }
 
     #cover-text {
@@ -251,6 +251,7 @@ media query and size increase causing layout issues  */
 
     #hero-image {
         padding-top: 35vh;
+        min-height: 65rem;
     }
 
     #cover-text {
