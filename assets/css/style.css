@@ -143,6 +143,7 @@ h3 {
 
 #packages {
     padding: 1rem;
+    background-color: #B2A895;
 }
 
 #packages h2 {
@@ -151,6 +152,7 @@ h3 {
 
 #packages h3 {
     font-size: 2.2rem;
+    margin-top: 1rem;
 }
 
 #prices-heading {
@@ -158,6 +160,10 @@ h3 {
     padding: 1rem;
     width: 80%;
     max-width: 120rem;
+}
+
+#packages .card {
+
 }
 
 /* Footer */
