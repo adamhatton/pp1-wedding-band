@@ -148,19 +148,47 @@ h3 {
 #packages {
     padding: 1rem;
     background-color: #212529;
+    min-height: calc(100vh - 10.5rem);
+}
+
+#packages .card {
+    position: relative;
 }
 
 #packages h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
 }
 
 #packages h3 {
     font-size: 2.2rem;
-    margin-top: 1rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    display: block;
+    top: -1.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 20rem;
+}
+
+#packages a {
+    text-decoration: none;
+    color: #212529;
+}
+
+#packages p {
+    font-size: 1.2rem;
+}
+
+sup {
+    font-size: 1.4rem;
+    vertical-align: -0.5rem;
 }
 
 #prices-heading {
-    margin: 2rem auto;
+    margin: 2rem auto 4rem auto;
     padding: 1rem;
     width: 80%;
     max-width: 120rem;
@@ -175,6 +203,20 @@ h3 {
 
 #packages .card-body {
     margin: 0 auto;
+    padding: 3.5rem 1rem 2rem 1rem;
+    width: 80%;
+}
+
+#silver-h {
+    background-color: rgba(235, 235, 235, 1);
+}
+
+#gold-h {
+    background-color: rgba(239, 173, 67, 1)
+}
+
+#diamond-h {
+    background-color: rgba(185, 242, 255, 1);
 }
 
 #silver-card {
@@ -187,6 +229,12 @@ h3 {
 
 #diamond-card {
     background-color: rgba(185, 242, 255, 0.8);
+}
+
+.price {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
 /* Footer */
