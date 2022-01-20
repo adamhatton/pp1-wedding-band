@@ -147,7 +147,7 @@ h3 {
 
 #packages {
     padding: 1rem;
-    background-color: #B2A895;
+    background-color: #212529;
 }
 
 #packages h2 {
@@ -164,10 +164,29 @@ h3 {
     padding: 1rem;
     width: 80%;
     max-width: 120rem;
+    background-color: white;
 }
 
-#packages .card {
+.card ul {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0;
+}
 
+#packages .card-body {
+    margin: 0 auto;
+}
+
+#silver-card {
+    background-color: rgba(235, 235, 235, 0.9);
+}
+
+#gold-card {
+    background-color: rgba(239, 173, 67, 0.85)
+}
+
+#diamond-card {
+    background-color: rgba(185, 242, 255, 0.8);
 }
 
 /* Footer */
