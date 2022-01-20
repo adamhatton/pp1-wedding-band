@@ -68,8 +68,8 @@ h3 {
     background-color: rgba(235, 235, 235, 0.9);
     text-align: center;
     display: table;
-    border: 2px solid #212529;
-    border-radius: 1rem;
+    border: 1px solid #212529;
+    border-radius: 4px;
 }
 
 #cover-text > h2 {
@@ -90,8 +90,8 @@ h3 {
     font-size: 2rem;
     font-weight: 600;
     color: #212529;
-    border: 2px solid #212529;
-    border-radius: 1rem;
+    border: 1px solid #212529;
+    border-radius: 4px;
     font-family: Antonio, sans-serif;
     background-color: rgba(235, 235, 235, 0.9);
 }
