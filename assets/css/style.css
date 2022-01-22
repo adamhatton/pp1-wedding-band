@@ -253,6 +253,12 @@ sup {
     margin-top: 1rem;
 }
 
+/*** --- THE BAND PAGE --- ***/
+
+img {
+    width: 100%;
+}
+
 /* Footer */
 
 .social-links {
