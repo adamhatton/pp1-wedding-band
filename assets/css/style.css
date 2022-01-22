@@ -131,11 +131,13 @@ h3 {
     background-color: #fff;
     border-radius: 1rem;
     margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem;
 }
 
 #testimonials p {
     font-size: 1.4rem;
     font-weight: 500;
+    padding-bottom: 0.5remgit;
 }
 
 #testimonials .card {
@@ -210,7 +212,7 @@ sup {
     list-style-type: none;
 }
 
-li {
+#packages li {
     padding: 0.5rem;
 }
 
@@ -265,7 +267,6 @@ li {
 
 .social-links > li {
     display: inline-block;
-
 }
 
 .social-links i {
@@ -312,6 +313,8 @@ li {
         font-size: 2.1rem;
     }
 
+    /* Home Page MQ */
+    
     #hero-image {
         height: 75vh;
         padding-top: 23vh;
@@ -346,6 +349,22 @@ li {
 
     }
 
+    /* Prices Page MQ */
+
+    #packages {
+        min-height: calc(100vh - 13.5rem);
+    }
+
+    #packages > h2 {
+        font-size: 4.2rem;
+    }
+
+    #packages h3 {
+        font-size: 3.3rem;
+    }
+
+    /* Footer MQ */
+
     .social-links i {
         font-size: 3.6rem;
     }
@@ -365,6 +384,8 @@ li {
     .nav-item {
         font-size: 2.8rem;
     }
+
+    /* Home Page MQ */
 
     #hero-image {
         padding-top: 35vh;
@@ -390,14 +411,13 @@ li {
         font-size: 4rem;
     }
 
-    #testimonials h3 {
-        font-size: 2.8rem;
+    /* Prices Page MQ */
+
+    #packages {
+        min-height: calc(100vh - 16.35rem);
     }
 
-    #testimonials p {
-        font-size: 2.1rem;
-
-    }
+    /* Footer MQ */
 
     .social-links i {
         font-size: 4.8rem;
