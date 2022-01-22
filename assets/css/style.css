@@ -32,7 +32,7 @@ h3 {
 }
 
 #logo {
-    color: #ebebeb;
+    color: #fff;
     font-size: 2.8rem;
     font-weight: 500;
     letter-spacing: 1px;
@@ -65,7 +65,7 @@ h3 {
 }
 
 .white-box {
-    background-color: rgba(235, 235, 235, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     text-align: center;
     display: table;
     border: 1px solid #212529;
@@ -93,7 +93,7 @@ h3 {
     border: 1px solid #212529;
     border-radius: 4px;
     font-family: Antonio, sans-serif;
-    background-color: rgba(235, 235, 235, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 #prices-btn {
@@ -121,29 +121,30 @@ h3 {
     border: 1px solid #212529;
     border-radius: 50%;
     background: #EFAD43 url(../images/vintage-microphone.webp) center top / cover no-repeat;
-    margin: 0.5rem auto;
+    margin: 1rem auto 0.5rem auto;
 }
 
 #testimonials h3 {
     font-style: italic;
     font-size: 1.8rem;
     font-weight: 500;
-    background-color: #fff;
+    background-color: #EFAD43;
+    max-width: 80%;
     border-radius: 1rem;
-    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
-    padding: 0.5rem;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
 }
 
 #testimonials p {
     font-size: 1.4rem;
     font-weight: 500;
-    padding-bottom: 0.5remgit;
+    padding-bottom: 0.5rem;
 }
 
 #testimonials .card {
-    background-color: rgba(235, 235, 235, 0.8);
-    border: 2px ridge #DB5461;
-    box-shadow: 1px 1px 20px #000 inset;
+    background-color: #fff;
+    border: 2px ridge #EFAD43;
+    box-shadow: 1px 1px 15px #000 inset;
 }
 
 /*** --- PRICES PAGE --- ***/
@@ -158,7 +159,7 @@ h3 {
     position: relative;
     margin: 0 auto;
     max-width: 100rem;
-    box-shadow: 2px 2px 20px #000 inset;
+    box-shadow: 2px 2px 15px #000 inset;
 }
 
 #packages > h2 {
@@ -264,7 +265,7 @@ img {
 .social-links {
     text-align: center;
     background-color: #212529;
-    border-top: #ebebeb 1px solid;
+    border-top: #fff 1px solid;
 
     /* Override Bootstrap padding and margins */
     padding: 0;
@@ -279,7 +280,7 @@ img {
     padding: 0.5rem;
     margin: 1rem 2rem;
     font-size: 2.4rem;
-    color: #ebebeb;
+    color: #fff;
 }
 
 /*** --- MEDIA QUERIES --- ***/
