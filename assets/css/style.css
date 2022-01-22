@@ -72,7 +72,7 @@ h3 {
     border-radius: 4px;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     display: table-cell;
     vertical-align: middle;
     font-size: 2.4rem;
@@ -120,7 +120,7 @@ h3 {
     height: 10rem;
     border: 1px solid #212529;
     border-radius: 50%;
-    background:#EFAD43 url(../images/vintage-microphone.png) center top / cover no-repeat;
+    background: #EFAD43 url(../images/vintage-microphone.png) center top / cover no-repeat;
     margin: 0.5rem auto;
 }
 
@@ -138,9 +138,10 @@ h3 {
     font-weight: 500;
 }
 
-#testimonials .card   {
+#testimonials .card {
     background-color: rgba(235, 235, 235, 0.8);
-    border: 2px solid #DB5461;
+    border: 2px ridge #DB5461;
+    box-shadow: 1px 1px 20px #000 inset;
 }
 
 /*** --- PRICES PAGE --- ***/
@@ -153,6 +154,7 @@ h3 {
 
 #packages .card {
     position: relative;
+    box-shadow: 2px 2px 20px #000 inset;
 }
 
 #packages h2 {
@@ -220,15 +222,15 @@ sup {
 }
 
 #silver-card {
-    background-color: rgba(235, 235, 235, 0.9);
+    border: 2px ridge rgba(235, 235, 235, 1);
 }
 
 #gold-card {
-    background-color: rgba(239, 173, 67, 0.85)
+    border: 2px ridge rgba(239, 173, 67, 1);
 }
 
 #diamond-card {
-    background-color: rgba(185, 242, 255, 0.8);
+    border: 2px ridge rgba(185, 242, 255, 1);
 }
 
 .price {
@@ -266,7 +268,7 @@ sup {
 /* for mobiles with screen width 320px and above */
 
 @media screen and (min-width: 320px) and (orientation: landscape) {
-    
+
     #hero-image {
         padding-top: 15vh;
         min-height: 22.5rem;
@@ -276,14 +278,14 @@ sup {
 /* for mobiles with screen width 390px and above */
 
 @media screen and (min-width: 390px) and (orientation: portrait) {
-    
+
     /* Reduce hero image size to hint at content below it */
     #hero-image {
         height: calc(100vh - 10rem);
     }
 }
 
-/* for tablets with screen width 500px -> Increase sizes by 50%. */ 
+/* for tablets with screen width 500px -> Increase sizes by 50%. */
 
 @media screen and (min-width: 500px) {
     body {
@@ -308,15 +310,15 @@ sup {
         width: 33rem;
         height: 15rem;
     }
-    
-    #cover-text > h2 {
+
+    #cover-text>h2 {
         font-size: 3.6rem;
     }
 
     #button-container {
         width: 33rem;
     }
-    
+
     .homepage-button {
         width: 15rem;
         height: 7.5rem;
@@ -326,7 +328,7 @@ sup {
     #testimonials h3 {
         font-size: 2.4rem;
     }
-    
+
     #testimonials p {
         font-size: 1.8rem;
 
@@ -361,15 +363,15 @@ sup {
         width: 44rem;
         height: 20rem;
     }
-    
-    #cover-text > h2 {
+
+    #cover-text>h2 {
         font-size: 4.8rem;
     }
 
     #button-container {
         width: 44rem;
     }
-    
+
     .homepage-button {
         width: 20rem;
         height: 10rem;
@@ -379,7 +381,7 @@ sup {
     #testimonials h3 {
         font-size: 2.8rem;
     }
-    
+
     #testimonials p {
         font-size: 2.1rem;
 
@@ -389,4 +391,3 @@ sup {
         font-size: 4.8rem;
     }
 }
-
