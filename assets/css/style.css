@@ -128,9 +128,9 @@ h3 {
     font-size: 1.6rem;
     font-weight: 500;
     background-color: #EFAD43;
-    min-width: 70%;
+    width: 80%;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 0.5rem 1rem;
 }
 
@@ -262,9 +262,27 @@ img {
     width: 100%;
 }
 
+#band-info {
+    padding: 1rem;
+}
+
+#band-info h2 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
 #band-info .card-text {
     /* No card-body class on 1st card so 10px padding added to replicate bootstrap default style */
     padding: 1rem;
+}
+
+#band-info .card-body {
+    width: 100%;
+    padding: 0;
+}
+
+#center-info {
+    width: 100%;
 }
 
 /* Footer */
