@@ -72,7 +72,7 @@ h3 {
     border-radius: 4px;
 }
 
-#cover-text>h2 {
+#cover-text > h2 {
     display: table-cell;
     vertical-align: middle;
     font-size: 2.4rem;
@@ -154,10 +154,12 @@ h3 {
 
 #packages .card {
     position: relative;
+    margin: 0 auto;
+    max-width: 100rem;
     box-shadow: 2px 2px 20px #000 inset;
 }
 
-#packages h2 {
+#packages > h2 {
     font-size: 2.8rem;
     letter-spacing: 1px;
 }
@@ -182,6 +184,9 @@ h3 {
 
 #packages p {
     font-size: 1.2rem;
+    margin: 0;
+    padding: 0 1rem 1.5rem 1rem;
+    text-align: center;
 }
 
 sup {
@@ -193,7 +198,7 @@ sup {
     margin: 2rem auto 4rem auto;
     padding: 1rem;
     width: 80%;
-    max-width: 120rem;
+    max-width: 100rem;
     background-color: white;
 }
 
@@ -201,12 +206,19 @@ sup {
     font-size: 1.4rem;
     font-weight: 400;
     padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+li {
+    padding: 0.5rem;
 }
 
 #packages .card-body {
     margin: 0 auto;
     padding: 3.5rem 1rem 2rem 1rem;
     width: 80%;
+    text-align: center;
 }
 
 #silver-h {
@@ -251,7 +263,7 @@ sup {
     margin: 0;
 }
 
-.social-links li {
+.social-links > li {
     display: inline-block;
 
 }
