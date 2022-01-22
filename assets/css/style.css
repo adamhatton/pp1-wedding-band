@@ -121,27 +121,27 @@ h3 {
     border: 1px solid #212529;
     border-radius: 50%;
     background: #EFAD43 url(../images/vintage-microphone.webp) center top / cover no-repeat;
-    margin: 1rem auto 0.5rem auto;
+    margin: 1rem;
 }
 
-#testimonials h3 {
-    font-style: italic;
-    font-size: 1.8rem;
+h3 {
+    font-size: 1.6rem;
     font-weight: 500;
     background-color: #EFAD43;
-    max-width: 80%;
+    min-width: 70%;
     border-radius: 1rem;
-    margin: 1rem auto;
+    margin: 1rem;
     padding: 0.5rem 1rem;
 }
 
-#testimonials p {
+p {
     font-size: 1.4rem;
     font-weight: 500;
     padding-bottom: 0.5rem;
+    width: 100%;
 }
 
-#testimonials .card {
+.card {
     background-color: #fff;
     border: 2px ridge #EFAD43;
     box-shadow: 1px 1px 15px #000 inset;
@@ -168,7 +168,9 @@ h3 {
 }
 
 #packages h3 {
+    border-radius: 0;
     font-size: 2.2rem;
+    font-weight: 600;
     letter-spacing: 1px;
     margin: 0;
     padding: 0.5rem 1rem;
@@ -260,6 +262,11 @@ img {
     width: 100%;
 }
 
+#band-info .card-text {
+    /* No card-body class on 1st card so 10px padding added to replicate bootstrap default style */
+    padding: 1rem;
+}
+
 /* Footer */
 
 .social-links {
@@ -347,12 +354,12 @@ img {
         font-size: 3rem;
     }
 
-    #testimonials h3 {
-        font-size: 2.4rem;
+    h3 {
+        font-size: 2rem;
     }
 
     #testimonials p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
 
     }
 
