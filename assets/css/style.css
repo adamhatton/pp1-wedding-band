@@ -293,6 +293,18 @@ sup {
     width: 100%;
 }
 
+#music-links i {
+    padding: 0.5rem;
+    margin: 1rem 2rem;
+    font-size: 10rem;
+    color: #212529;
+}
+
+#music-links li :hover,
+.social-links li :hover {
+    color: #EFAD43;
+}
+
 /* Footer */
 
 .social-links {
@@ -305,7 +317,8 @@ sup {
     margin: 0;
 }
 
-.social-links > li {
+.social-links > li,
+#music-links li {
     display: inline-block;
 }
 
