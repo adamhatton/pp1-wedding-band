@@ -155,9 +155,12 @@ p {
 
 /*** --- PRICES PAGE --- ***/
 
-#packages {
+.default-section-style {
     padding: 1rem;
     background-color: #212529;
+}
+
+.height-set {
     min-height: calc(100vh - 10.5rem);
 }
 
@@ -310,6 +313,44 @@ sup {
 
 /*** --- ENQUIRE PAGE (Contact form) --- ***/
 
+#contact-form {
+    width: 90%;
+    max-width: 65rem;
+    background-color: #EFAD43;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem 0;
+    font-weight: 600;
+}
+
+.text-input,
+.date-input,
+.select-input {
+    width: 100%;
+    padding: 2px 0.5rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    background: #fff;
+    border: 1px #000 solid;
+    display: block;
+}
+
+.date-input,
+.select-input {
+    width: 60%;
+    max-width: 65rem;
+    display: block;
+}
+
+.text-area {
+    height: 8rem;
+}
+
 
 
 /* Footer */
@@ -416,12 +457,11 @@ sup {
 
     #testimonials p {
         font-size: 1.6rem;
-
     }
 
     /* Prices Page MQ */
 
-    #packages {
+    .height-set {
         min-height: calc(100vh - 13.5rem);
     }
 
@@ -501,7 +541,7 @@ sup {
 
     /* Prices Page MQ */
 
-    #packages {
+    .height-set {
         min-height: calc(100vh - 16.35rem);
     }
 
