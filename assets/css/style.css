@@ -176,9 +176,11 @@ p {
     width: 80%;
     max-width: 100rem;
     background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
 }
 
-#packages h3 {
+.offset-h-box {
     border-radius: 0;
     font-size: 2.2rem;
     font-weight: 600;
@@ -198,7 +200,7 @@ p {
     color: #212529;
 }
 
-#packages p {
+#diamond-note {
     font-size: 1.2rem;
     margin: 0;
     padding: 0 1rem 1.5rem 1rem;
@@ -427,11 +429,11 @@ sup {
         font-size: 4.2rem;
     }
 
-    #packages h3 {
+    .offset-h-box {
         font-size: 2.7rem;
     }
 
-    #packages p {
+    #diamond-note {
         font-size: 1.4rem;
     }
  
