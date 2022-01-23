@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400&family=Rubik:wght@300;400&display=swap');
 
 /* general styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,6 @@ body {
 }
 
 /* logo, navbar and headings */
-
 h1,
 h2,
 h3 {
@@ -47,9 +45,7 @@ h3 {
 }
 
 /*** --- HOME PAGE --- ***/
-
 /* hero image, cover text and buttons */
-
 #hero-image {
     /* --- Image taken from: https://www.pexels.com/photo/pretty-woman-singing-with-the-band-3984827/ --- */
     background: #B2A895 url(../images/female-singer.webp) center top / cover no-repeat;
@@ -110,7 +106,6 @@ h3 {
 }
 
 /* Testimonial section */
-
 .row {
     clear: both;
 }
@@ -154,7 +149,6 @@ p {
 }
 
 /*** --- PRICES PAGE --- ***/
-
 .default-section-style {
     padding: 1rem;
     background-color: #212529;
@@ -265,7 +259,6 @@ sup {
 }
 
 /*** --- THE BAND PAGE --- ***/
-
 #band-img1 {
     width: 100%;
 }
@@ -312,13 +305,16 @@ sup {
 }
 
 /*** --- ENQUIRE PAGE (Contact form) --- ***/
+#contact-heading {
+    margin-bottom: 2rem;
+}
 
 #contact-form {
     width: 90%;
     max-width: 65rem;
     background-color: #EFAD43;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
     border-radius: 4px;
 }
 
@@ -337,6 +333,7 @@ label {
     font-size: 1.4rem;
     background: #fff;
     border: 1px #000 solid;
+    border-radius: 4px;
     display: block;
 }
 
@@ -351,15 +348,34 @@ label {
     height: 8rem;
 }
 
+#contact-button {
+    font-family: Antonio, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin: 1rem auto 0 auto;
+    background-color: #fff;
+    border: #212529 solid 1px;
+    border-radius: 4px;
+    display: block;
+}
 
+#contact-button:hover {
+    background-color: #212529;
+    color: #fff;
+}
+
+:focus {
+    outline: none;
+    background-color:rgba(185, 242, 255, 1);
+}
 
 /* Footer */
-
 .social-links {
     text-align: center;
     background-color: #212529;
     border-top: #fff 1px solid;
-
     /* Override Bootstrap padding and margins */
     padding: 0;
     margin: 0;
@@ -378,9 +394,7 @@ label {
 }
 
 /*** --- MEDIA QUERIES --- ***/
-
 /* for mobiles with screen width 320px and above */
-
 @media screen and (min-width: 320px) and (orientation: landscape) {
 
     #hero-image {
@@ -400,7 +414,6 @@ label {
 }
 
 /* for mobiles with screen width 390px and above */
-
 @media screen and (min-width: 390px) and (orientation: portrait) {
 
     /* Reduce hero image size to hint at content below it */
@@ -410,7 +423,6 @@ label {
 }
 
 /* for tablets with screen width 500px -> Increase sizes by around 50%. */
-
 @media screen and (min-width: 500px) {
     body {
         padding-top: 6.6rem;
@@ -425,8 +437,7 @@ label {
     }
 
     /* Home Page MQ */
-    
-    #hero-image {
+        #hero-image {
         height: 75vh;
         padding-top: 23vh;
         min-height: 43rem;
@@ -460,7 +471,6 @@ label {
     }
 
     /* Prices Page MQ */
-
     .height-set {
         min-height: calc(100vh - 13.5rem);
     }
@@ -486,20 +496,41 @@ label {
     }
 
     /* The Band MQ */
-
     #band-info .card-text {
         font-size: 1.6rem;
     }
 
-    /* Footer MQ */
+    /* Enquire MQ */
+    #contact-heading {
+        margin-bottom: 8rem;
+    }
+    
+    label {
+        font-size: 1.8rem;
+        }
+    
+    .text-input,
+    .date-input,
+    .select-input {
+        font-size: 1.8rem;
+        height: 3rem;
+    }
+    
+    .text-area {
+        height: 14rem;
+    }
+   
+    #contact-button {
+        font-size: 2.8rem;
+    }
 
+    /* Footer MQ */
     .social-links i {
         font-size: 3.6rem;
     }
 }
 
 /* for screens with width 1200px and above -> Increase key elements by 100% */
-
 @media screen and (min-width: 1200px) {
     body {
         padding-top: 8.3rem;
@@ -514,7 +545,6 @@ label {
     }
 
     /* Home Page MQ */
-
     #hero-image {
         padding-top: 35vh;
         min-height: 65rem;
@@ -540,20 +570,17 @@ label {
     }
 
     /* Prices Page MQ */
-
     .height-set {
         min-height: calc(100vh - 16.35rem);
     }
 
     /* Footer MQ */
-
     .social-links i {
         font-size: 4.8rem;
     }
 }
 
 /* for screens with height 1200px and above */
-
 @media screen and (min-height: 1200px) {
     .gy-5 {
         --bs-gutter-y: 6rem;
