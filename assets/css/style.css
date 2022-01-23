@@ -51,6 +51,7 @@ h3 {
 /* hero image, cover text and buttons */
 
 #hero-image {
+    /* --- Image taken from: https://www.pexels.com/photo/pretty-woman-singing-with-the-band-3984827/ --- */
     background: #B2A895 url(../images/female-singer.webp) center top / cover no-repeat;
     height: calc(100vh - 4.8rem);
     box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.3);
@@ -120,6 +121,7 @@ h3 {
     height: 10rem;
     border: 1px solid #212529;
     border-radius: 50%;
+    /* --- Image taken from: https://pixabay.com/vectors/microphone-talk-speak-record-radio-1295666/ --- */
     background: #EFAD43 url(../images/vintage-microphone.webp) center top / cover no-repeat;
     margin: 1rem;
 }
@@ -258,8 +260,12 @@ sup {
 
 /*** --- THE BAND PAGE --- ***/
 
-img {
+#band-img1 {
     width: 100%;
+}
+
+#band-img2 {
+    display: none;
 }
 
 #band-info {
@@ -272,17 +278,18 @@ img {
     margin: 2rem;
 }
 
-#band-info .card-text {
-    /* No card-body class on 1st card so 10px padding added to replicate bootstrap default style */
+#band-info-card1 > .card-text,
+#band-info-card3 > .card-text {
+    /* No card-body class on 1st or 3rd card so 10px padding added to replicate bootstrap default style */
     padding: 1rem;
 }
 
-#band-info .card-body {
+#band-info-card2 .card-body {
     width: 100%;
     padding: 0;
 }
 
-#center-info {
+#music-links {
     width: 100%;
 }
 
@@ -319,6 +326,16 @@ img {
         padding-top: 15vh;
         min-height: 22.5rem;
     }
+
+    #band-images {
+        text-align: center;
+        background-color: #212529;
+    }
+
+    #band-images > img {
+        width: 49.9%;
+        display: inline;
+    }
 }
 
 /* for mobiles with screen width 390px and above */
@@ -331,7 +348,7 @@ img {
     }
 }
 
-/* for tablets with screen width 500px -> Increase sizes by 50%. */
+/* for tablets with screen width 500px -> Increase sizes by around 50%. */
 
 @media screen and (min-width: 500px) {
     body {
@@ -408,6 +425,12 @@ img {
         font-size: 1.8rem;
     }
 
+    /* The Band MQ */
+
+    #band-info .card-text {
+        font-size: 1.6rem;
+    }
+
     /* Footer MQ */
 
     .social-links i {
@@ -415,7 +438,7 @@ img {
     }
 }
 
-/* for screens with width 1200px and above -> Increase sizes by 100% */
+/* for screens with width 1200px and above -> Increase key elements by 100% */
 
 @media screen and (min-width: 1200px) {
     body {
