@@ -168,9 +168,14 @@ p {
     box-shadow: 2px 2px 15px #000 inset;
 }
 
-#packages > h2 {
+.page-heading {
     font-size: 2.8rem;
     letter-spacing: 1px;
+    margin: 2rem auto 4rem auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 100rem;
+    background-color: #fff;
 }
 
 #packages h3 {
@@ -203,14 +208,6 @@ p {
 sup {
     font-size: 1.4rem;
     vertical-align: -0.5rem;
-}
-
-#prices-heading {
-    margin: 2rem auto 4rem auto;
-    padding: 1rem;
-    width: 80%;
-    max-width: 100rem;
-    background-color: white;
 }
 
 .card ul {
@@ -426,7 +423,7 @@ sup {
         min-height: calc(100vh - 13.5rem);
     }
 
-    #packages > h2 {
+    .page-heading {
         font-size: 4.2rem;
     }
 
