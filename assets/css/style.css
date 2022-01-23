@@ -105,6 +105,10 @@ h3 {
     float: right;
 }
 
+#hero-image button:hover {
+    background-color: #EFAD43;
+}
+
 /* Testimonial section */
 
 .row {
