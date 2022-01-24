@@ -294,6 +294,7 @@ video {
 
 #music-links {
     width: 100%;
+    padding: 1rem;
 }
 
 #music-links i {
@@ -409,11 +410,11 @@ label {
     #band-images {
         text-align: center;
         background-color: #212529;
-        padding: 1rem 0;
+        padding: 3rem 1rem;
     }
 
     #band-images > img {
-        width: 49%;
+        width: 49.7%;
         display: inline-block;
     }
 }
