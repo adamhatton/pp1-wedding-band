@@ -288,6 +288,10 @@ sup {
     padding: 0;
 }
 
+video {
+    width: 60%;
+}
+
 #music-links {
     width: 100%;
 }
@@ -405,11 +409,12 @@ label {
     #band-images {
         text-align: center;
         background-color: #212529;
+        padding: 1rem 0;
     }
 
     #band-images > img {
-        width: 49.9%;
-        display: inline;
+        width: 49%;
+        display: inline-block;
     }
 }
 
