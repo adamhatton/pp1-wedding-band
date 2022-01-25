@@ -320,6 +320,7 @@ video {
 
 #contact-form {
     width: 90%;
+    min-width: 28rem;
     max-width: 65rem;
     background-color: #EFAD43;
     margin: 0 auto;
@@ -375,7 +376,9 @@ label {
     color: #fff;
 }
 
-:focus {
+.text-input:focus,
+.date-input:focus,
+.select-input:focus {
     outline: none;
     background-color:rgba(185, 242, 255, 1);
 }
