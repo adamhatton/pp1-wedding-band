@@ -50,14 +50,14 @@ In this section I will describe each of the features of the website in general. 
 
 ![navbar screenshot](docs/screenshots/navbar.jpg)
 
-**Landing Page (Hero Image, Text Overlay and Buttons)**
+#### Landing Page
 
 - The landing page contains a large photograph centred on the vocalist of the band. It is overlaid with some text which explains who “The Wedding Crashers” are.
 - The landing page also includes two call to action buttons: one for seeing the band prices, and one for contacting the band. Both of these buttons change colour when hovered over, providing feedback to the user that they are interactive.
 
 ![hero image screenshot](docs/screenshots/hero-image.jpg)
 
-**Testimonial Cards**
+#### Testimonial Cards
 
 - Below the landing page image are three cards containing testimonials from people who have previously hired The Wedding Crashers.
 - Each card contains an image of a microphone styled into a circle, a heading to highlight the people that made the comment, and a quote of what they had to say about the band.
@@ -65,14 +65,14 @@ In this section I will describe each of the features of the website in general. 
 
 ![testimonial cards screenshot](docs/screenshots/testimonial-cards.jpg)
 
-**Footer**
+#### Footer
 
 - The footer contains 3 links to different social media sites: Facebook, Twitter, and Youtube.
 - The links change colour when hovered over to provide feedback that they are interactive, and when clicked they open in a new tab.
 
 ![footer screenshot](docs/screenshots/footer.jpg)
 
-**Prices Page**
+#### Prices Page
 
 - The prices page contains a heading to highlight the purpose of the page, and 3 cards which contain information on the different packages the band offers.
 - The cards are styled in the same colour as the name of the package to visually reinforce the difference in the contents. The price has a larger font size and is in bold to help it stand out as the key piece of information. 
@@ -80,7 +80,7 @@ In this section I will describe each of the features of the website in general. 
 
 ![footer screenshot](docs/screenshots/packages.jpg)
 
-**The Band Page**
+#### The Band Page
 
 _Band Images_
 
@@ -98,7 +98,7 @@ _Band Information_
 
 ![band images screenshot](docs/screenshots/band-info-cards.jpg)
 
-**Enquire Page**
+#### Enquire Page
 
 - The ‘Enquire’ page contains a heading to highlight the purpose of the page and a contact form. The contact form will allow the user to send an enquiry to the band which includes their name, email address, the date of their events, the package they are interested in and any additional information.
 
@@ -106,7 +106,7 @@ _[Note that the contact form does not currently function as it is written only i
 
 ![band images screenshot](docs/screenshots/enquire-page.jpg)
 
-**General**
+#### General
 
 - The website was designed with a mobile-first approach and has been written to be responsive on all device types.
 
@@ -215,41 +215,58 @@ Minor changes were made to the wireframes during development to improve the over
 
 ### User Stories
 
+#### First time visitor
+
 **As a first time visitor, I want to easily understand what the site is about**
--	On the landing page the user is presented with a large image of people holding instruments with the text “THE NORTH-EAST'S MOST IN DEMAND WEDDING BAND!” overlaid. This makes it immediately clear that the site is to showcase The Wedding Crashers as a band (see landing page)
--	The user is also greeted with two call to action buttons: one for checking prices, and one titled ‘Hire Us’, inviting the user to get in touch with the band. The buttons make it clear that the site can provide further information about the bands services (see landing page)
+-	On the landing page the user is presented with a large image of people holding instruments with the text “THE NORTH-EAST'S MOST IN DEMAND WEDDING BAND!” overlaid. This makes it immediately clear that the site is to showcase The Wedding Crashers as a band ([see landing page](<#landing-page>))
+-	The user is also greeted with two call to action buttons: one for checking prices, and one titled ‘Hire Us’, inviting the user to get in touch with the band. The buttons make it clear that the site can provide further information about the bands services ([see landing page](<#landing-page>))
 
 **As a first time visitor, I want to be able to easily navigate around the site**
--	The user is presented with an easily readable navbar throughout the site. This contains links to all of the pages within the website, and is always visible to the user so they will always feel like they have somewhere they can go. In addition, the Logo also serves as a link to the home page in line with conventional website behaviour (see navbar)
+-	The user is presented with an easily readable navbar throughout the site. This contains links to all of the pages within the website, and is always visible to the user so they will always feel like they have somewhere they can go. In addition, the Logo also serves as a link to the home page in line with conventional website behaviour ([see navbar](#navigation-bar))
 -	On smaller screens, the navbar collapses into a hamburger menu allowing the user easy access to the page links whenever they need them ([see navbar](#navigation-bar))
--	The landing page provides prominent buttons for taking the user to key sections of the website: prices and enquiries. (see landing page)
+-	The landing page provides prominent buttons for taking the user to key sections of the website: prices and enquiries. ([see landing page](<#landing-page>))
 
-As a first time visitor, I want the website to be responsive to different devices
+**As a first time visitor, I want the website to be responsive to different devices**
 -	All elements of the website have been designed to be responsive across devices
--	The navbar grows and shrinks with the size of the device, and will collapse to a hamburger menu when the screen drops below a certain size (see navbar)
+-	The navbar grows and shrinks with the size of the device, and will collapse to a hamburger menu when the screen drops below a certain size ([see navbar](#navigation-bar))
 -	Font sizes will change depending on the screen size. Tablet sized devices have a font size increase of roughly 50%, and larger screens have a 100% size increase for important elements such as headings and the navbar.
--	Bootstrap was used to implement cards, meaning that they will stack on top of each other on smaller screen sizes <stacking-cards>
--	‘The Band’ page is set to only show 1 image on smaller screen sizes so as not to overcrowd the information. On larger screens, another image is added to fill the space <band-page-mobile> <band-page-desktop>
+-	Bootstrap was used to implement cards, meaning that they will stack on top of each other on smaller screen sizes (see the below screenshot):
 
-As a first time visitor, I want to easily be able to find out more about the band
+<details><summary>Stacking cards</summary>
+
+![stacking cards](docs/screenshots/stacking-cards.jpg)
+
+</details>
+
+-	‘The Band’ page is set to only show 1 image on smaller screen sizes so as not to overcrowd the information. On larger screens, another image is added to fill the space (see below screenshots) 
+
+<details><summary>Responsive images</summary>
+
+![band page mobile](docs/screenshots/band-page-mobile.jpg)
+
+![band page desktop](docs/screenshots/band-page-desktop.jpg)
+
+</details>
+
+**As a first time visitor, I want to easily be able to find out more about the band**
 -	The navbar contains a link to “The Band” page which is accessible from anywhere on the site. Users can use this to navigate to this page which contains more information
--	“The Band” page has two cards dedicated to providing further information about the band, and a third card which takes users to the band’s social media accounts [note that these do not exist] (see the band page)
--	The home page also contains testimonial cards which let the user to see what people who have hired the band had to say about them, helping them to learn more about the service that is offered. (see testimonial cards)
+-	“The Band” page has two cards dedicated to providing further information about the band, and a third card which takes users to the band’s social media accounts [note that these do not exist] ([see the band page](<#the-band-page>))
+-	The home page also contains testimonial cards which let the user to see what people who have hired the band had to say about them, helping them to learn more about the service that is offered. ([see testimonial cards](<#testimonial-cards>))
 
-As a first time visitor, I want to easily be able to find out how much the band costs to hire
--	Upon entering the site the user is immediately met with a call to action button for viewing prices (see landing page)
+**As a first time visitor, I want to easily be able to find out how much the band costs to hire**
+-	Upon entering the site the user is immediately met with a call to action button for viewing prices ([see landing page](<#landing-page>))
 -	The prices page is also linked to in the navbar which is always in view and accessible anywhere on the website
--	The “Prices” page clearly lays out the different packages the band offers, and has a boldened price associated with each (see prices page)
+-	The “Prices” page clearly lays out the different packages the band offers, and has a boldened price associated with each ([see prices page](<#prices-page>))
 
-As a first time visitor, I want to be able to contact the band to initiate a booking
--	Upon entering the site the user is immediately met with a call to action button for contacting the band (see landing page)
+**As a first time visitor, I want to be able to contact the band to initiate a booking**
+-	Upon entering the site the user is immediately met with a call to action button for contacting the band ([see landing page](<#landing-page>))
 -	The “Enquire” page is also linked to in the navbar which is always in view and accessible anywhere on the website
--	The “Enquire” page provides a contact form for getting in touch with the band. This is for demonstration purposes and does not actually send any data. (see enquire page)
+-	The “Enquire” page provides a contact form for getting in touch with the band. This is for demonstration purposes and does not actually send any data. ([see enquire page](<#enquire-page>)
 
+**As a first time visitor, I want to know what the band sounds like**
+-	On “The Band” page, the user is able to click links to the band’s social media accounts where they are able to hear what the band sounds like [note that these accounts do not exist]
 
-As a first time visitor, I want to know what the band sounds like
--	On “The Band” page, the user is able to click links to the band’s social media accounts where they are able to hear what the band sounds like accounts [note that these accounts do not exist]
+#### Returning Visitor
 
-Returning Visitor
-As a returning visitor, I want to easily be able to access the contact page
+**As a returning visitor, I want to easily be able to access the contact page**
 -	The same points that apply to the first time visitor user story about contacting the band also apply here
