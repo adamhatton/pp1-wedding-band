@@ -91,6 +91,9 @@ h3 {
     border-radius: 4px;
     font-family: Antonio, sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    text-align: center;
+    line-height: 4.5rem;
 }
 
 #prices-btn {
@@ -101,8 +104,9 @@ h3 {
     float: right;
 }
 
-#hero-image button:hover {
+#hero-image a:hover {
     background-color: #EFAD43;
+    color: #212529;
 }
 
 /* Testimonial section */
@@ -466,6 +470,7 @@ label {
         width: 15rem;
         height: 7.5rem;
         font-size: 3rem;
+        line-height: 7rem;
     }
 
     h3 {
@@ -573,6 +578,7 @@ label {
         width: 20rem;
         height: 10rem;
         font-size: 4rem;
+        line-height: 9.5rem;
     }
 
     /* Prices Page MQ */
