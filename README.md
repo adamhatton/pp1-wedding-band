@@ -206,10 +206,10 @@ Minor changes were made to the wireframes during development to improve the over
 
 ### Testing Technologies
 
-- [a11y Contrast](https://color.a11y.com/) - used for checking contrast accessiblity
+- [a11y Contrast Checker](https://color.a11y.com/) - used for checking contrast accessiblity
 - [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - used for validating the CSS stylesheet
 - [W3C HTML validator](https://validator.w3.org/) - used for validating the HTML markup
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used for analysing the performance of the website
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used for analysing the performance, accessibility, best practices and SEO of the website
 
 ## Testing
 
@@ -252,6 +252,7 @@ Minor changes were made to the wireframes during development to improve the over
 -	The navbar contains a link to “The Band” page which is accessible from anywhere on the site. Users can use this to navigate to this page which contains more information
 -	“The Band” page has two cards dedicated to providing further information about the band, and a third card which takes users to the band’s social media accounts [note that these do not exist] ([see the band page](<#the-band-page>))
 -	The home page also contains testimonial cards which let the user to see what people who have hired the band had to say about them, helping them to learn more about the service that is offered. ([see testimonial cards](<#testimonial-cards>))
+-   The footer contains links which will take users to the band’s social media accounts to be able to find out more information [note that these do not exist] ([see footer](<#footer>))
 
 **As a first time visitor, I want to easily be able to find out how much the band costs to hire**
 -	Upon entering the site the user is immediately met with a call to action button for viewing prices ([see landing page](<#landing-page>))
@@ -261,7 +262,7 @@ Minor changes were made to the wireframes during development to improve the over
 **As a first time visitor, I want to be able to contact the band to initiate a booking**
 -	Upon entering the site the user is immediately met with a call to action button for contacting the band ([see landing page](<#landing-page>))
 -	The “Enquire” page is also linked to in the navbar which is always in view and accessible anywhere on the website
--	The “Enquire” page provides a contact form for getting in touch with the band. This is for demonstration purposes and does not actually send any data. ([see enquire page](<#enquire-page>)
+-	The “Enquire” page provides a contact form for getting in touch with the band. This is for demonstration purposes and does not actually send any data. ([see enquire page](<#enquire-page>))
 
 **As a first time visitor, I want to know what the band sounds like**
 -	On “The Band” page, the user is able to click links to the band’s social media accounts where they are able to hear what the band sounds like [note that these accounts do not exist]
@@ -270,3 +271,29 @@ Minor changes were made to the wireframes during development to improve the over
 
 **As a returning visitor, I want to easily be able to access the contact page**
 -	The same points that apply to the first time visitor user story about contacting the band also apply here
+
+### Validation and Manual Testing
+
+The steps taken for validation and manual testing have been summarised below, but a document with full details and screenshots can be found here.
+
+- Each page of the website was run through the [W3C HTML validator](https://validator.w3.org/). Initially one error was found, but this was fixed (see bugs section). After rerunning the pages through, no errors were found.
+- The website was run through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and no errors were found
+- Each page of the website was run through the [a11y Contrast Checker](https://color.a11y.com/) and no errors were found
+- Each page of the website was run through [Lighthouse](https://developers.google.com/web/tools/lighthouse) to analyse the performance, accessibility, best practices and SEO of the site. All results were 90+ (apart from the performance of the mobile version of the home page which returned 89. All measures to reduce the filesizes on this page had been taken so I decided to leave it due to it being so close to 90)
+
+The following checks were made on a desktop using 3 separate browsers: Chrome, Edge and Firefox. The checks were also replicated on a Samsung Galaxy s21 (apart from checking hover over effects, and responsive breakpoints):
+- Internal links on each page were manually checked to ensure they were not broken and went to the correct page.
+- External links on each page were manually checked to ensure they were not broken, went to the correct page, and opened in a new tab.
+- Hover over effects for all relevant elements were checked on each page to ensure they were working
+- Responsive design was checked on each page to ensure that the relevant breakpoints were being hit
+- The video on "The Band" page was tested to ensure it was not auto-playing and to ensure the controls worked
+- The form on the "Enquire" page was tested to ensure each field displayed the focus styling when selected, and accepted input
+- The form was also tested to ensure the submit button would not work until all required fields were populated
+
+An excel document containing the test data can be seen in the separate testing file (as linked above).
+
+## Bugs
+
+## Deployment
+
+## Credits/Resources
