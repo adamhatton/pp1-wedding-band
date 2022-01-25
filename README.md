@@ -294,6 +294,50 @@ An excel document containing the test data can be seen in the separate testing f
 
 ## Bugs
 
+**HTML Validation Error**
+
+After running the homepage through the W3C validator, it returned an error that button elements must not appear as descendants of anchor elements. The original code looks as follows:
+~~~
+<div id="button-container">
+        <a href="prices.html">
+                <button class="homepage-button" id="prices-btn">Prices</button>
+        </a>
+        <a href="enquire.html">
+                <button class="homepage-button" id="hire-btn">Hire Us</button>
+        </a>
+</div>
+~~~
+To resolve this, I removed the button elements and transferred the styling classes over to the anchor elements. I needed to add some additional styling to the text within the anchor elements to mimic button text, specifically using margins to centre the text horizontally and line-height to centre it vertically. I also had to remove the default text-decoration and :hover text effect associated with anchor elements. Following the fix, the html code looks as follows:
+~~~
+<div id="button-container">
+        <a href="prices.html" class="homepage-button" id="prices-btn">Prices</a>
+        <a href="enquire.html" class="homepage-button" id="hire-btn">Hire Us</a>
+</div>
+~~~
+
+**:focus Background Bug**
+
+During testing I found a bug stemming from a style applied to the :focus pseudo-class. Orignally I had applied the style to the pseudo-class directly with the intent of having fields in the contact form have a blue background when focused, as below:
+~~~
+:focus {
+    outline: none;
+    background-color:rgba(185, 242, 255, 1);
+}
+~~~
+This caused all other elements to produce a blue artefact once selected, as below:
+
+![focus bug screenshot](docs/screenshots/focus-background-bug.jpg)
+
+To fix this, I changed the specificty of the CSS rule to only apply to classes that are descendants of the form, as below:
+~~~
+.text-input:focus,
+.date-input:focus,
+.select-input:focus {
+    outline: none;
+    background-color:rgba(185, 242, 255, 1);
+}
+~~~
+
 ## Deployment
 
 ## Credits/Resources
