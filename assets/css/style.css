@@ -69,7 +69,7 @@ h3 {
     border-radius: 4px;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     display: table-cell;
     vertical-align: middle;
     font-size: 2.4rem;
@@ -281,8 +281,8 @@ sup {
     margin: 2rem;
 }
 
-#band-info-card1 > .card-text,
-#band-info-card3 > .card-text {
+#band-info-card1>.card-text,
+#band-info-card3>.card-text {
     /* No card-body class on 1st or 3rd card so 10px padding added to replicate bootstrap default style */
     padding: 1rem;
 }
@@ -380,7 +380,7 @@ label {
 .date-input:focus,
 .select-input:focus {
     outline: none;
-    background-color:rgba(185, 242, 255, 1);
+    background-color: rgba(185, 242, 255, 1);
 }
 
 /* Footer */
@@ -393,7 +393,7 @@ label {
     margin: 0;
 }
 
-.social-links > li,
+.social-links>li,
 #music-links li {
     display: inline-block;
 }
@@ -420,7 +420,7 @@ label {
         padding: 3rem 1rem;
     }
 
-    #band-images > img {
+    #band-images>img {
         width: 49.7%;
         display: inline-block;
     }
@@ -450,7 +450,7 @@ label {
     }
 
     /* Home Page MQ */
-        #hero-image {
+    #hero-image {
         height: 75vh;
         padding-top: 23vh;
         min-height: 43rem;
@@ -500,7 +500,7 @@ label {
     #diamond-note {
         font-size: 1.4rem;
     }
- 
+
     .card ul {
         font-size: 1.6rem;
     }
@@ -518,22 +518,22 @@ label {
     #contact-heading {
         margin-bottom: 8rem;
     }
-    
+
     label {
         font-size: 1.8rem;
-        }
-    
+    }
+
     .text-input,
     .date-input,
     .select-input {
         font-size: 1.8rem;
         height: 3rem;
     }
-    
+
     .text-area {
         height: 14rem;
     }
-   
+
     #contact-button {
         font-size: 2.8rem;
     }
@@ -599,5 +599,5 @@ label {
 @media screen and (min-height: 1200px) {
     .gy-5 {
         --bs-gutter-y: 6rem;
-    }    
+    }
 }
