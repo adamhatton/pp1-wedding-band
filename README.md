@@ -12,21 +12,29 @@ The live site can be found [here](https://adamhatton.github.io/pp1-wedding-band/
 
 Screenshots of each page can be seen below:
 
-**Home page**
+<details><summary>Home page</summary>
 
 ![homepage screenshot](docs/screenshots/home-page.jpg)
 
-**Prices page**
+</details>
+
+<details><summary>Prices page</summary>
 
 ![price page screenshot](docs/screenshots/prices-page.jpg)
 
-**The Band page**
+</details>
+
+<details><summary>The Band page</summary>
 
 ![band page screenshot](docs/screenshots/the-band-page.jpg)
 
-**Enquire Page**
+</details>
+
+<details><summary>Enquire page</summary>
 
 ![enquire page screenshot](docs/screenshots/enquire-page.jpg)
+
+</details>
 
 ## Features
 
