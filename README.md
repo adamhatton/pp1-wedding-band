@@ -70,7 +70,7 @@ In this section I will describe each of the features of the website in general. 
 
 #### Footer
 
-- The footer contains 3 links to different social media sites: Facebook, Twitter, and Youtube.
+- The footer contains 3 links to different social media sites: Facebook, Twitter, and YouTube.
 - The links change colour when hovered over to provide feedback that they are interactive, and when clicked they open in a new tab.
 
 ![footer screenshot](docs/screenshots/footer.jpg)
@@ -105,7 +105,7 @@ _Band Information_
 
 - The ‘Enquire’ page contains a heading to highlight the purpose of the page and a contact form. The contact form will allow the user to send an enquiry to the band which includes their name, email address, the date of their events, the package they are interested in and any additional information.
 
-_[Note that the contact form does not currently function as it is written only in html and css, it cannot send any data]_
+_[Note that the contact form does not currently function as it is written only in HTML and CSS, it cannot send any data]_
 
 ![enquire page screenshot](docs/screenshots/enquire-page.jpg)
 
@@ -195,14 +195,14 @@ Minor changes were made to the wireframes during development to improve the over
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - used to write the structure of the site
 - [CSS](https://en.wikipedia.org/wiki/CSS) - used for the styling of the site
 
-**Frameworks, Librarires and Tools**
+**Frameworks, Libraries and Tools**
 - [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - used for the navbar and the cards (cards appear on all pages except the ‘Enquire’ page)
 - [Google Fonts](https://fonts.google.com/) - used to import both Antonio and Rubik which are the fonts used throughout the entire site
 - [Font Awesome](https://fontawesome.com/) - used to add icons for links to different social media sites
 - [Gitpod](https://www.gitpod.io/) - used to write and develop the website
-- [Git](https://git-scm.com/) – used for version controlling by using the Gitpod terminal to commit to Git, and subsequently pushing to Github
-- [Github](https://github.com/) – used to store the source code for the website
-- [Github pages](https://pages.github.com/) – used to deploy the live site
+- [Git](https://git-scm.com/) – used for version controlling by using the Gitpod terminal to commit to Git, and subsequently pushing to GitHub
+- [GitHub](https://github.com/) – used to store the source code for the website
+- [GitHub pages](https://pages.github.com/) – used to deploy the live site
 - [Balsamiq](https://balsamiq.com/) - used to create the initial wireframes of the website
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used throughout the process for testing the responsiveness of the website, debugging issues, and experimenting with layout/style choices
 - [Cloudconvert](https://cloudconvert.com/) - used to convert the biggest images to .webp format
@@ -213,7 +213,7 @@ Minor changes were made to the wireframes during development to improve the over
 
 ### Testing Technologies
 
-- [a11y Contrast Checker](https://color.a11y.com/) - used for checking contrast accessiblity
+- [a11y Contrast Checker](https://color.a11y.com/) - used for checking contrast accessibility
 - [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - used for validating the CSS stylesheet
 - [W3C HTML validator](https://validator.w3.org/) - used for validating the HTML markup
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used for analysing the performance, accessibility, best practices and SEO of the website
@@ -286,7 +286,7 @@ The steps taken for validation and manual testing have been summarised below, bu
 - Each page of the website was run through the [W3C HTML validator](https://validator.w3.org/). Initially one error was found, but this was fixed ([see bugs section](<#bugs>)). After rerunning the pages through, no errors were found.
 - The website was run through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and no errors were found
 - Each page of the website was run through the [a11y Contrast Checker](https://color.a11y.com/) and no errors were found
-- Each page of the website was run through [Lighthouse](https://developers.google.com/web/tools/lighthouse) to analyse the performance, accessibility, best practices and SEO of the site. All results were 90+ (apart from the performance of the mobile version of the home page which returned 89. All measures to reduce the filesizes on this page had been taken so I decided to leave it due to it being so close to 90)
+- Each page of the website was run through [Lighthouse](https://developers.google.com/web/tools/lighthouse) to analyse the performance, accessibility, best practices and SEO of the site. All results were 90+ (apart from the performance of the mobile version of the home page which returned 89. All measures to reduce the file sizes on this page had been taken so I decided to leave it due to it being so close to 90)
 
 The following checks were made on a desktop using 3 separate browsers: Chrome, Edge and Firefox. The checks were also replicated on a Samsung Galaxy s21 (apart from checking hover over effects, and responsive breakpoints):
 - Internal links on each page were manually checked to ensure they were not broken and went to the correct page.
@@ -324,7 +324,7 @@ To resolve this, I removed the button elements and transferred the styling class
 
 **:focus Background Bug**
 
-During testing I found a bug stemming from a style applied to the :focus pseudo-class. Orignally I had applied the style to the pseudo-class directly with the intent of having fields in the contact form have a blue background when focused, as below:
+During testing I found a bug stemming from a style applied to the :focus pseudo-class. Originally I had applied the style to the pseudo-class directly with the intent of having fields in the contact form have a blue background when focused, as below:
 ~~~
 :focus {
     outline: none;
@@ -335,7 +335,7 @@ This caused all other elements to produce a blue artefact once selected, as belo
 
 ![focus bug screenshot](docs/screenshots/focus-background-bug.jpg)
 
-To fix this, I changed the specificty of the CSS rule to only apply to classes that are descendants of the form, as below:
+To fix this, I changed the specificity of the CSS rule to only apply to classes that are descendants of the form, as below:
 ~~~
 .text-input:focus,
 .date-input:focus,
@@ -350,7 +350,7 @@ To fix this, I changed the specificty of the CSS rule to only apply to classes t
 To deploy the live site, the following steps were taken:
 
 1. Go to github.com
-2. Login to my github account
+2. Login to my GitHub account
 3. Select the relevant repository from my repository list:
 
 ![repository screenshot](docs/screenshots/deploy-repositories.jpg)

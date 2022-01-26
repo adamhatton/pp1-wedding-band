@@ -74,7 +74,7 @@ I passed each page of the website through the a11y contrast checker and no error
 
 ## Lighthouse Analysis
 
-I passed each page through the Lighthouse tool produce a report for both desktop and mobile performance. All results were 90+ except for the homepage performance on mobile which was 89. As I had already reduced the filesize images as much as possible I decided to leave this due to it being so close to 90. The results are below:
+I passed each page through the Lighthouse tool produce a report for both desktop and mobile performance. All results were 90+ except for the homepage performance on mobile which was 89. As I had already reduced the file sizes of the images as much as possible I decided to leave this due to it being so close to 90. The results are below:
 
 <details><summary>Home page</summary>
 
@@ -112,7 +112,7 @@ I performed manual testing on all of the pages to ensure the following:
 - All external links work, go to the correct page, and open in a new tab
 - The styles on :hover pseudo-classes work
 - The video on "The Band" page operates as intended (i.e. no auto-play, controls work)
-- The styles on the contact form :focus psuedo-class work
+- The styles on the contact form :focus pseudo-class work
 - The contact form fields accept input
 - The submit button does not work unless all required fields are populated
 - Responsive elements are activated at the relevant breakpoints
