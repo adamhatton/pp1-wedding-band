@@ -6,7 +6,7 @@ I passed each page of the website through the W3C validator. After the first pas
 
 <details><summary>Button Error</summary>
 
-![button error screenshot](docs/testing/button-error.jpg)
+![button error screenshot](button-error.jpg)
 
 </details>
 
@@ -16,7 +16,7 @@ After fixing these issues I passed the pages through a second time and there wer
 
 <details><summary>Home page</summary>
 
-![home w3c screenshot](docs/testing/home-results-w3c.jpg)
+![home w3c screenshot](home-results-w3c.jpg)
 
 </details>
 
@@ -119,7 +119,7 @@ I performed manual testing on all of the pages to ensure the following:
 
 These tests were completed on 3 different browsers on a desktop: Chrome, Edge and Firefox. The tests were also carried out on a Samsung Galaxy s21.
 
-A full breakdown of the tests completed can be seen in the below screenshots. The testing file can be found [here](docs/testing/wedding-crashers-testing.xlsx) but please note it is a .xlsx file.
+A full breakdown of the tests completed can be seen in the below screenshots. The testing file can be found [here](wedding-crashers-testing.xlsx) but please note it is a .xlsx file.
 
 <details><summary>Home page</summary>
 
