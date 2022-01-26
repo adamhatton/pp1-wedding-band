@@ -140,7 +140,11 @@ The below colours have been used throughout the website:
 
 ![colour palette screenshot](docs/screenshots/colour-palette.jpg)
 
-An initial palette was created by uploading a picture of the band into the [Colormind Smart Image tool](http://colormind.io/image/), this palette was then further refined to the one seen above. #212529 (Charleston Green) and #fff (White) are used for a simplistic and sleek feel, but one that also feels professional. #EFAD43 (Marigold) was used to match the band aesthetic, but the use of gold also provides a sense of a premium service. #B9F2FF (Blizzard Blue) and #EBEBEB (Platinum) were used to highlight the packages to match their titles, as well as to provide areas of contrast within the website. #DB5461 has been used in a single place: the bottom border of the header. This provides a clean break between the header and the page content without causing confusion with other colours on the page.
+An initial palette was created by uploading a picture of the band into the [Colormind Smart Image tool](http://colormind.io/image/), this palette was then further refined to the one seen above.
+- #212529 (Charleston Green) and #fff (White) are used for a simplistic and sleek feel, but one that also feels professional.
+- #EFAD43 (Marigold) was used to match the band aesthetic, but the use of gold also provides a sense of a premium service.
+- #B9F2FF (Blizzard Blue) and #EBEBEB (Platinum) were used to highlight the packages to match their titles, as well as to provide areas of contrast within the website.
+- #DB5461 has been used in a single place: the bottom border of the header. This provides a clean break between the header and the page content without causing confusion with other colours on the page.
 
 #### Typography
 
@@ -238,7 +242,7 @@ Minor changes were made to the wireframes during development to improve the over
 
 </details>
 
--	‘The Band’ page is set to only show 1 image on smaller screen sizes so as not to overcrowd the information. On larger screens, another image is added to fill the space (see below screenshots) 
+-	‘The Band’ page is set to only show 1 image on smaller screen sizes so as not to overcrowd the information. On larger screens, another image is added to fill the space (see below screenshots):
 
 <details><summary>Responsive images</summary>
 
@@ -276,7 +280,7 @@ Minor changes were made to the wireframes during development to improve the over
 
 The steps taken for validation and manual testing have been summarised below, but a document with full details and screenshots can be found here.
 
-- Each page of the website was run through the [W3C HTML validator](https://validator.w3.org/). Initially one error was found, but this was fixed (see bugs section). After rerunning the pages through, no errors were found.
+- Each page of the website was run through the [W3C HTML validator](https://validator.w3.org/). Initially one error was found, but this was fixed ([see bugs section](<#bugs>)). After rerunning the pages through, no errors were found.
 - The website was run through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and no errors were found
 - Each page of the website was run through the [a11y Contrast Checker](https://color.a11y.com/) and no errors were found
 - Each page of the website was run through [Lighthouse](https://developers.google.com/web/tools/lighthouse) to analyse the performance, accessibility, best practices and SEO of the site. All results were 90+ (apart from the performance of the mobile version of the home page which returned 89. All measures to reduce the filesizes on this page had been taken so I decided to leave it due to it being so close to 90)
@@ -366,3 +370,26 @@ To deploy the live site, the following steps were taken:
 ![published site screenshot](docs/screenshots/deploy-published.jpg)
 
 ## Credits/Resources
+
+### Code
+
+- The [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) framework has been used on the site for a responsive navbar and responsive cards
+- To gain a better understanding of Bootstrap and specifically the navbar framework, I used [this YouTube tutorial](https://www.youtube.com/watch?v=akXfF066MY0) by "A Designer Who Codes"
+- The method of applying a box-shadow to the hero-image was taken from the comments of [this Stack Overflow post](https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image?noredirect=1&lq=1) (specifically from user 'Neurotransmitter)
+- To gain a better understanding of centering content on Bootstrap cards, I sued [this Stack Overflow post](https://stackoverflow.com/questions/46857136/bootstrap-4-vertical-align-text-wont-center-on-card). Whilst I did not copy any code directly, the concepts I learned from the page were used in my code
+
+### Content
+
+- All content other than the band member names was written by Adam Hatton (the developer)
+- The band member names were generated using [Name-generator](https://www.name-generator.org.uk/quick/)
+
+### Media
+
+- Pictures of the band were taken from [Pexels](https://www.pexels.com/), specifically from user Gustavo Fring's content. Specific URLs have been included within the HTML and CSS code where the files are used
+- The video on "The Band" page was also taken from Gustavo Fring's content on [Pexels](https://www.pexels.com/). A specific URL is provided in the code.
+- The image of a vintage microphone on the homepage was taken from [Pixabay](https://pixabay.com/). A specific URL is provided in the code.
+
+### Acknowledgements
+
+- I'd like to thank my mentor Spencer Barriball for his guidance in the planning stage of the project and feedback on the finished product. He suggested using Bootstrap to assist with responsiveness and gave me an overview of how it works. Without this, I believe a number of elements within the website would have taken much longer to implement.
+- I'd also like to thank my Partner Nichola for her constant support, feedback on what I was creating, and tolerance for putting up with me constantly talking about it!
