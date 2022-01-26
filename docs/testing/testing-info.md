@@ -8,7 +8,7 @@ I passed each page of the website through the W3C validator. After the first pas
 
 ![button error screenshot](docs/testing/button-error.jpg)
 
-<details>
+</details>
 
 I fixed this by removing the buttons from the anchor tabs and restyling the anchor tabs to appear as buttons. The only other issue following the first pass was a warning that a section on "The Band" page did not have a heading, as it only contained images. After consideration I changed this to be a div instead as I didn't believe the images to be a section semantically.
 
@@ -18,25 +18,25 @@ After fixing these issues I passed the pages through a second time and there wer
 
 ![home w3c screenshot](docs/testing/home-results-w3c.jpg)
 
-<details>
+</details>
 
 <details><summary>Prices page</summary>
 
 ![prices w3c screenshot](docs/testing/prices-results-w3c.jpg)
 
-<details>
+</details>
 
 <details><summary>The Band page</summary>
 
 ![band w3c screenshot](docs/testing/band-info-results-w3c.jpg)
 
-<details>
+</details>
 
 <details><summary>Enquire page</summary>
 
 ![enquire w3c screenshot](docs/testing/enquire-results-w3c.jpg)
 
-<details>
+</details>
 
 ## Jigsaw Validation
 
@@ -52,25 +52,25 @@ I passed each page of the website through the a11y contrast checker and no error
 
 ![home a11y screenshot](docs/testing/home-results-a11y.jpg)
 
-<details>
+</details>
 
 <details><summary>Prices page</summary>
 
 ![prices a11y screenshot](docs/testing/prices-results-a11y.jpg)
 
-<details>
+</details>
 
 <details><summary>The Band page</summary>
 
 ![band a11y screenshot](docs/testing/band-info-results-a11y.jpg)
 
-<details>
+</details>
 
 <details><summary>Enquire page</summary>
 
 ![enquire a11y screenshot](docs/testing/enquire-results-a11y.jpg)
 
-<details>
+</details>
 
 ## Lighthouse Analysis
 
@@ -81,28 +81,28 @@ I passed each page through the Lighthouse tool produce a report for both desktop
 ![home desktop lighthouse screenshot](docs/testing/home-desktop-lighthouse.jpg)
 ![home mobile lighthouse screenshot](docs/testing/home-mobile-lighthouse.jpg)
 
-<details>
+</details>
 
 <details><summary>Prices page</summary>
 
 ![prices desktop lighthouse screenshot](docs/testing/prices-desktop-lighthouse.jpg)
 ![prices mobile lighthouse screenshot](docs/testing/prices-mobile-lighthouse.jpg)
 
-<details>
+</details>
 
 <details><summary>The Band page</summary>
 
 ![band desktop lighthouse screenshot](docs/testing/band-desktop-lighthouse.jpg)
 ![band mobile lighthouse screenshot](docs/testing/band-mobile-lighthouse.jpg)
 
-<details>
+</details>
 
 <details><summary>Enquire page</summary>
 
 ![enquire desktop lighthouse screenshot](docs/testing/enquire-desktop-lighthouse.jpg)
 ![enquire mobile lighthouse screenshot](docs/testing/enquire-mobile-lighthouse.jpg)
 
-<details>
+</details>
 
 ## Manual Testing
 
@@ -125,22 +125,22 @@ A full breakdown of the tests completed can be seen in the below screenshots. Th
 
 ![home manual testing screenshot](docs/testing/home-manual-testing.jpg)
 
-<details>
+</details>
 
 <details><summary>Prices page</summary>
 
 ![prices manual testing screenshot](docs/testing/prices-manual-testing.jpg)
 
-<details>
+</details>
 
 <details><summary>The Band page</summary>
 
 ![band manual testing screenshot](docs/testing/band-manual-testing.jpg)
 
-<details>
+</details>
 
 <details><summary>Enquire page</summary>
 
 ![enquire manual testing screenshot](docs/testing/enquire-manual-testing.jpg)
 
-<details>
+</details>
