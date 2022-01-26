@@ -22,19 +22,19 @@ After fixing these issues I passed the pages through a second time and there wer
 
 <details><summary>Prices page</summary>
 
-![prices w3c screenshot](docs/testing/prices-results-w3c.jpg)
+![prices w3c screenshot](prices-results-w3c.jpg)
 
 </details>
 
 <details><summary>The Band page</summary>
 
-![band w3c screenshot](docs/testing/band-info-results-w3c.jpg)
+![band w3c screenshot](band-info-results-w3c.jpg)
 
 </details>
 
 <details><summary>Enquire page</summary>
 
-![enquire w3c screenshot](docs/testing/enquire-results-w3c.jpg)
+![enquire w3c screenshot](enquire-results-w3c.jpg)
 
 </details>
 
@@ -42,7 +42,7 @@ After fixing these issues I passed the pages through a second time and there wer
 
 I passed the website through the Jigsaw validator and this returned no errors:
 
-![css jigsaw screenshot](docs/testing/css-results-jigsaw.jpg)
+![css jigsaw screenshot](css-results-jigsaw.jpg)
 
 ## A11Y Contrast Checker
 
@@ -50,25 +50,25 @@ I passed each page of the website through the a11y contrast checker and no error
 
 <details><summary>Home page</summary>
 
-![home a11y screenshot](docs/testing/home-results-a11y.jpg)
+![home a11y screenshot](home-results-a11y.jpg)
 
 </details>
 
 <details><summary>Prices page</summary>
 
-![prices a11y screenshot](docs/testing/prices-results-a11y.jpg)
+![prices a11y screenshot](prices-results-a11y.jpg)
 
 </details>
 
 <details><summary>The Band page</summary>
 
-![band a11y screenshot](docs/testing/band-info-results-a11y.jpg)
+![band a11y screenshot](band-info-results-a11y.jpg)
 
 </details>
 
 <details><summary>Enquire page</summary>
 
-![enquire a11y screenshot](docs/testing/enquire-results-a11y.jpg)
+![enquire a11y screenshot](enquire-results-a11y.jpg)
 
 </details>
 
@@ -78,29 +78,29 @@ I passed each page through the Lighthouse tool produce a report for both desktop
 
 <details><summary>Home page</summary>
 
-![home desktop lighthouse screenshot](docs/testing/home-desktop-lighthouse.jpg)
-![home mobile lighthouse screenshot](docs/testing/home-mobile-lighthouse.jpg)
+![home desktop lighthouse screenshot](home-desktop-lighthouse.jpg)
+![home mobile lighthouse screenshot](home-mobile-lighthouse.jpg)
 
 </details>
 
 <details><summary>Prices page</summary>
 
-![prices desktop lighthouse screenshot](docs/testing/prices-desktop-lighthouse.jpg)
-![prices mobile lighthouse screenshot](docs/testing/prices-mobile-lighthouse.jpg)
+![prices desktop lighthouse screenshot](prices-desktop-lighthouse.jpg)
+![prices mobile lighthouse screenshot](prices-mobile-lighthouse.jpg)
 
 </details>
 
 <details><summary>The Band page</summary>
 
-![band desktop lighthouse screenshot](docs/testing/band-desktop-lighthouse.jpg)
-![band mobile lighthouse screenshot](docs/testing/band-mobile-lighthouse.jpg)
+![band desktop lighthouse screenshot](band-desktop-lighthouse.jpg)
+![band mobile lighthouse screenshot](band-mobile-lighthouse.jpg)
 
 </details>
 
 <details><summary>Enquire page</summary>
 
-![enquire desktop lighthouse screenshot](docs/testing/enquire-desktop-lighthouse.jpg)
-![enquire mobile lighthouse screenshot](docs/testing/enquire-mobile-lighthouse.jpg)
+![enquire desktop lighthouse screenshot](enquire-desktop-lighthouse.jpg)
+![enquire mobile lighthouse screenshot](enquire-mobile-lighthouse.jpg)
 
 </details>
 
@@ -123,24 +123,24 @@ A full breakdown of the tests completed can be seen in the below screenshots. Th
 
 <details><summary>Home page</summary>
 
-![home manual testing screenshot](docs/testing/home-manual-testing.jpg)
+![home manual testing screenshot](home-manual-testing.jpg)
 
 </details>
 
 <details><summary>Prices page</summary>
 
-![prices manual testing screenshot](docs/testing/prices-manual-testing.jpg)
+![prices manual testing screenshot](prices-manual-testing.jpg)
 
 </details>
 
 <details><summary>The Band page</summary>
 
-![band manual testing screenshot](docs/testing/band-manual-testing.jpg)
+![band manual testing screenshot](band-manual-testing.jpg)
 
 </details>
 
 <details><summary>Enquire page</summary>
 
-![enquire manual testing screenshot](docs/testing/enquire-manual-testing.jpg)
+![enquire manual testing screenshot](enquire-manual-testing.jpg)
 
 </details>
