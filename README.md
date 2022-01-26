@@ -340,4 +340,29 @@ To fix this, I changed the specificty of the CSS rule to only apply to classes t
 
 ## Deployment
 
+To deploy the live site, the following steps were taken:
+
+1. Go to github.com
+2. Login to my github account
+3. Select the relevant repository from my repository list:
+
+![repository screenshot](docs/screenshots/deploy-repositories.jpg)
+
+4. Go to the settings within the repository:
+
+![repository settings screenshot](docs/screenshots/deploy-settings.jpg)
+
+5. From within settings, select ‘Pages’ from the menu:
+
+![repository pages screenshot](docs/screenshots/deploy-pages.jpg)
+
+6. Select the ‘main’ branch from the ‘Source’ dropdown menu:
+
+![repository branch screenshot](docs/screenshots/deploy-branch.jpg)
+
+7. Select 'Save'
+8. After a short while, the site is published and confirmation is provided:
+
+![published site screenshot](docs/screenshots/deploy-published.jpg)
+
 ## Credits/Resources
