@@ -394,5 +394,5 @@ To deploy the live site, the following steps were taken:
 
 ### Acknowledgements
 
-- I'd like to thank my mentor Spencer Barriball for his guidance in the planning stage of the project and feedback on the finished product. He suggested using Bootstrap to assist with responsiveness and gave me an overview of how it works. Without this, I believe a number of elements within the website would have taken much longer to implement.
+- I'd like to thank my mentor Spencer Barriball for his guidance in the planning stage of the project and feedback on the finished product.
 - I'd also like to thank my Partner Nichola for her constant support, feedback on what I was creating, and tolerance for putting up with me constantly talking about it!
