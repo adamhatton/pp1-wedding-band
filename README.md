@@ -78,7 +78,7 @@ In this section I will describe each of the features of the website in general. 
 - The cards are styled in the same colour as the name of the package to visually reinforce the difference in the contents. The price has a larger font size and is in bold to help it stand out as the key piece of information. 
 - The cards were implemented with Bootstrap 5 so are responsive across different devices.
 
-![footer screenshot](docs/screenshots/packages.jpg)
+![packages screenshot](docs/screenshots/packages.jpg)
 
 #### The Band Page
 
@@ -96,7 +96,7 @@ _Band Information_
 - Card 3 contains some background information about how the band formed and who the band members are.
 - The cards were implemented with Bootstrap 5 so are responsive across different devices.
 
-![band images screenshot](docs/screenshots/band-info-cards.jpg)
+![band cards screenshot](docs/screenshots/band-info-cards.jpg)
 
 #### Enquire Page
 
@@ -104,7 +104,7 @@ _Band Information_
 
 _[Note that the contact form does not currently function as it is written only in html and css, it cannot send any data]_
 
-![band images screenshot](docs/screenshots/enquire-page.jpg)
+![enquire page screenshot](docs/screenshots/enquire-page.jpg)
 
 #### General
 
@@ -150,7 +150,7 @@ An initial palette was created by uploading a picture of the band into the [Colo
 
 The logo and headings use the font Antonio with a fall-back of sans-serif. Antonio was chosen as it has a professional yet strong character to it and it punctuates key points of the page well.
 All other text uses the font Rubik, with a fall back of sans-serif. Rubik was chosen as it is easily readable but maintains a professional yet friendly quality.
-Both fonts were imported from <Google Fonts>.
+Both fonts were imported from [Google Fonts](https://fonts.google.com/).
 
 #### Imagery
 
@@ -166,19 +166,19 @@ As the website is an advertisement of the band, the imagery used is of the band 
 
 <details><summary>Prices Page</summary>
 
-![homepage wireframe](docs/wireframes/wireframe-prices.png)
+![prices wireframe](docs/wireframes/wireframe-prices.png)
 
 </details>
 
 <details><summary>The Band Page</summary>
 
-![homepage wireframe](docs/wireframes/wireframe-band-info.png)
+![band wireframe](docs/wireframes/wireframe-band-info.png)
 
 </details>
 
-<details><summary>Enquiry Page</summary>
+<details><summary>Enquire Page</summary>
 
-![homepage wireframe](docs/wireframes/wireframe-enquire.png)
+![enquire wireframe](docs/wireframes/wireframe-enquire.png)
 
 </details>
 
@@ -278,7 +278,7 @@ Minor changes were made to the wireframes during development to improve the over
 
 ### Validation and Manual Testing
 
-The steps taken for validation and manual testing have been summarised below, but a document with full details and screenshots can be found here.
+The steps taken for validation and manual testing have been summarised below, but a document with full details and screenshots can be found [here](docs/testing/testing-info.md).
 
 - Each page of the website was run through the [W3C HTML validator](https://validator.w3.org/). Initially one error was found, but this was fixed ([see bugs section](<#bugs>)). After rerunning the pages through, no errors were found.
 - The website was run through the [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) and no errors were found
@@ -294,7 +294,7 @@ The following checks were made on a desktop using 3 separate browsers: Chrome, E
 - The form on the "Enquire" page was tested to ensure each field displayed the focus styling when selected, and accepted input
 - The form was also tested to ensure the submit button would not work until all required fields were populated
 
-An excel document containing the test data can be seen in the separate testing file (as linked above).
+An excel document containing the test data can be seen in the separate [testing file](docs/testing/testing-info.md) (as linked above).
 
 ## Bugs
 
