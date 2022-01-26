@@ -1,6 +1,9 @@
 # The Wedding Crashers
 
-Welcome to The Wedding Crashers website! This site is aimed at people looking for a live band for their wedding day. The site allows users to learn more about the band, see what packages they offer and how much they cost, and contact the band directly to initiate a booking. In addition to providing information, the site is also an advertisement for the band, enabling users to see what the band look like as an ensemble as well as providing links to (hypothetical) social media accounts where band recordings can be listened to.
+Welcome to The Wedding Crashers website! This site is aimed at people looking for a live band for their wedding day. The two main goals of the site are:
+
+1. To allow users to learn more about the band, see what packages they offer and how much they cost, and contact the band directly to initiate a booking.
+2. To act as an advertisement for the band, enabling users to see what the band look like as an ensemble as well as providing links to (hypothetical) social media accounts where band recordings can be listened to.
 
 _[Note that The Wedding Crashers is a fictional band, created for the purposes of the Code Institute Portfolio Project]_
 
