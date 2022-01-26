@@ -12,7 +12,7 @@ I passed each page of the website through the W3C validator. After the first pas
 
 I fixed this by removing the buttons from the anchor tabs and restyling the anchor tabs to appear as buttons. The only other issue following the first pass was a warning that a section on "The Band" page did not have a heading, as it only contained images. After consideration I changed this to be a div instead as I didn't believe the images to be a section semantically.
 
-After fixing these issues I passed the pages through a second time and there were no issues, as shown in the below screenshots:
+After fixing these issues I passed the pages through a second time and there were no issues. After my final session with my mentor I added a favicon to my site along with a link to it in my HTML head. I passed each page through the W3C validator again and there were no issues as shown in the below screenshots:
 
 <details><summary>Home page</summary>
 
@@ -144,3 +144,5 @@ A full breakdown of the tests completed can be seen in the below screenshots. Th
 ![enquire manual testing screenshot](enquire-manual-testing.jpg)
 
 </details>
+
+Additionally, after my final session with my mentor I added a favicon to the site. I manually tested that this appears in Chrome, Edge and Firefox, but have not updated the testing spreadsheet to reflect this.
